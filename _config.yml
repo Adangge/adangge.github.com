@@ -1,81 +1,68 @@
+# Basic
+title: 周刚
+subtitle: Nicolas Chow
+description: 凡是过去 皆为序章
+# 头像里面的标题
+avatarTitle: stidio
+# 头像里面的描述
+avatarDesc: 编程·管理·运动·读书
+url: "http://stidio.github.io"
+
+# Comment
+comment:
+    # disqus: leopard
+    duoshuo: stidio 
+
+# Social
+social:
+    weibo: 1073227497 
+    github: stidio
+    # twitter: 
+    mail: stidio@163.com
+
+# 百度统计 
+# 使用博客模板请去掉或者更换 id 
+baidu:
+    id: 15c4fed56d4cae267af95752c20fa16e  
+
+# Google Analytics
+# 使用博客模板请去掉或者更换 id
+ga:
+    id: UA-87578654-1
+    host: auto  
+
+
+# ----------------- 上面的信息修改成你自己的 ---------------------------
 #
-# This file contains configuration flags to customize your site
+#  _post/   文章目录
+#  _drafts/ 未发布的文章目录
+#  目录结构具体参考文档：http://jekyll.com.cn/docs/structure/
 #
-
-# Name of your site (displayed in the header)
-name: Your Username
-
-# Short bio or description (displayed in the header)
-description: Programmer From Somewhere On Earth
+# --------------- 下面的信息可以自行选择是否修改 ------------------------
 
 
-#
-# Flags below are optional
-#
+permalink: /:year/:month/:title/
+# Format
+markdown: kramdown
+highlighter: rouge
 
-# Includes an icon in the footer for each username you enter
-footer-links:
-  dribbble:
-  email: agarwal.akshay.akshay8@gmail.com
-  facebook:
-  flickr:
-  github: AkshayAgarwal007
-  instagram:
-  linkedin: akshay-agarwal-782018a4
-  pinterest:
-  rss: # just type anything here for a working RSS icon
-  twitter: 
-  stackoverflow: # your stackoverflow profile, e.g. "users/3807565/akshay"
-  youtube: # channel/<your_long_string> or user/<user-name>
-  googleplus: # anything in your profile username that comes after plus.google.com/
+# supported colors: blue, green, purple, red, orange or slate. If you need clear, leave it empty.
+cover_color: clear #背景Mask
+
+# The blog button should not be removed.
+blog_button:
+    title: 主页
+
+# Navigation buttons in the front page.s
+nav:
+    - {title: 存档, description: archive, url: '/archive'}   
+    - {title: 标签, description: tags, url: '/tags'}      
+    - {title: 关于, description: about, url: '/about'}      
+    
+
+# Pagination
+gems: [jekyll-paginate,jekyll-sitemap]
+paginate: 20
+paginate_path: "page/:num/"
 
 
-# Enter your Disqus shortname (not your username) to enable commenting on posts
-# You can find your shortname on the Settings page of your Disqus account
-disqus:
-
-# Enter your Google Analytics web tracking code (e.g. UA-2110908-2) to activate tracking
-google_analytics:
-
-# Your website URL (e.g. http://akshayagarwal007.github.io)
-# Used for Sitemap.xml and your RSS feed
-url:
-
-# If you're hosting your site at a Project repository on GitHub pages
-# (http://yourusername.github.io/repository-name)
-# and NOT your User repository (http://yourusername.github.io)
-# then add in the baseurl here, like this: "/repository-name"
-baseurl: ""
-
-#
-# !! You don't need to change any of the configuration flags below !!
-#
-
-permalink: /:title/
-
-# Jekyll 3 now only supports Kramdown for Markdown
-kramdown:
-  # Use GitHub flavored markdown, including triple backtick fenced code blocks
-  input: GFM
-  # Jekyll 3 and GitHub Pages now only support rouge for syntax highlighting
-  syntax_highlighter: rouge
-  syntax_highlighter_opts:
-    # Use existing pygments syntax highlighting css
-    css_class: 'highlight'
-
-# Set the Sass partials directory, as we're using @imports
-sass:
-  style: :expanded # You might prefer to minify using :compressed
-
-# Use the following plug-ins
-gems:
-  - jekyll-sitemap # Create a sitemap using the official Jekyll sitemap gem
-  - jekyll-feed # Create an Atom feed using the official Jekyll feed gem
-
-# Exclude these files from your production _site
-exclude:
-  - Gemfile
-  - Gemfile.lock
-  - LICENSE
-  - README.md
-  - CNAME
