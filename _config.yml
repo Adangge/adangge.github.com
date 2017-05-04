@@ -9,10 +9,14 @@ avatarDesc: Love what is loving!
 url: "http://adangge.github.io"
 
 # Comment
-comment:
-    # disqus: leopard
-    duoshuo: Adangge 
-
+    disqus: Adangge
+    comments: true
+ 
+value:
+   author: Long Ding
+   comments: true
+   share: true
+   
 # Social
 social:
     QQ: 754157977
