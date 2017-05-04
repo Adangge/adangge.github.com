@@ -11,11 +11,6 @@ url: "https://adangge.github.io"
 # Comment
     disqus: adangge.github.io
     comments: true
- 
-value:
-   author: Long Ding
-   comments: true
-   share: true
    
 # Social
 social:
