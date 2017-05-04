@@ -1,24 +1,24 @@
 # Basic
-title: 周刚
-subtitle: Nicolas Chow
-description: 凡是过去 皆为序章
+title: KUKA YouBot Development
+subtitle: Long Ding
+description: Keep Hungry and Keep Fool
 # 头像里面的标题
-avatarTitle: stidio
+avatarTitle: Adangge
 # 头像里面的描述
-avatarDesc: 编程·管理·运动·读书
-url: "http://stidio.github.io"
+avatarDesc: Love what is loving!
+url: "http://adangge.github.io"
 
 # Comment
 comment:
     # disqus: leopard
-    duoshuo: stidio 
+    duoshuo: Adangge 
 
 # Social
 social:
-    weibo: 1073227497 
-    github: stidio
+    QQ: 754157977
+    github: Adangge
     # twitter: 
-    mail: stidio@163.com
+    mail: ding_longcslg@hotmail.com
 
 # 百度统计 
 # 使用博客模板请去掉或者更换 id 
