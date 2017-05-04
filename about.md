@@ -7,22 +7,25 @@ header: 关于我
 
 ### Akademische Ausbildung:
 
-* 10, 2014 - Heute		Hochschule für Technik und Wirtschaft Berlin
+* 10, 2014 - Heute:
+                                Hochschule für Technik und Wirtschaft Berlin
 			        Studiengang:	Fahrzeugtechnik (Master)
 			        Fachrichtung:	Ingenieurwissenschaften- Technik und Leben
 
-* 09, 2010 - 07, 2011		Changsha University of Science and Technology (China)
+* 09, 2010 - 07, 2011:
+                                Changsha University of Science and Technology (China)
 				Studiengang:	Vehicle Operation Engineering
 
-* 09, 2006 - 07, 2010		Jianghan Universität (China)
+* 09, 2006 - 07, 2010:   
+                                Jianghan Universität (China)
 				Studiengang:	Fahrzeugservice
 				Abschluss:   	Bachelor of Science
 
 
 ### Praktiksche Erfahrungen:
 
-02, 2017 - 06, 2017	            Praktikant im Bereich Softwareentwicklung für Innovationsprojekte im Innovation Center München     
-
+* 02, 2017 - 06, 2017:
+                                Praktikant im Bereich Softwareentwicklung für Innovationsprojekte im Innovation Center München     
 * KUKA YouBot Showcase von T- Systems auf der CeBIT 2017 
 * Projekt Gazebo Simulation und SLAM Mapping/ Navigation von KUKA YouBot
 * Projekt autonome Navigation und Hindernisvermeidung von KUKA YouBot (ab Mai 2017)
