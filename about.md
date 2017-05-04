@@ -7,20 +7,15 @@ header: 关于我
 
 ### Akademische Ausbildung:
 
-10, 2014 - Heute		Hochschule für Technik und Wirtschaft Berlin
-		               
-			       Studiengang:	Fahrzeugtechnik (Master)
-		               
-			       Fachrichtung:	Ingenieurwissenschaften- Technik und Leben
+* 10, 2014 - Heute		Hochschule für Technik und Wirtschaft Berlin
+			        Studiengang:	Fahrzeugtechnik (Master)
+			        Fachrichtung:	Ingenieurwissenschaften- Technik und Leben
 
-09, 2010 - 07, 2011		Changsha University of Science and Technology (China)
-				
-				Studiengang:	Vehicle Operation Engineering (2 Semester des Masters)
+* 09, 2010 - 07, 2011		Changsha University of Science and Technology (China)
+				Studiengang:	Vehicle Operation Engineering
 
-09, 2006 - 07, 2010		Jianghan Universität (China)
-				
+* 09, 2006 - 07, 2010		Jianghan Universität (China)
 				Studiengang:	Fahrzeugservice
-				
 				Abschluss:   	Bachelor of Science
 
 
