@@ -5,22 +5,44 @@ header: 关于我
 ---
 <h3>{{ page.header }}</h3>
 
-生于新疆塔城额敏县，长于四川南充营山县
+### Akademische Ausbildung:
 
-全国高中化学奥林匹克竞赛一等奖获得者
+10, 2014 - Heute		Hochschule für Technik und Wirtschaft Berlin
+		Studiengang:	Fahrzeugtechnik (Master)
+		Fachrichtung:	Ingenieurwissenschaften- Technik und Leben
 
-1999-2003年就读于四川大学计算机系
+09, 2010 - 07, 2011		Changsha University of Science and Technology (China)
+				Studiengang:	Vehicle Operation Engineering (2 Semester des Masters)
 
-从事编程15+年，专精于C/C++
+09, 2006 - 07, 2010		Jianghan Universität (China)
+				Studiengang:	Fahrzeugservice
+				Abschluss:   	Bachelor of Science
 
-能力范围覆盖于GUI·音视频·通讯·分布式系统·机器视觉
 
-致力于视频会议·即时通讯·录播·直播·点播·企业应用·政府&军队信息化建设
+### Praktiksche Erfahrungen:
 
-研发管理10+年经验，长于产品战略·用户模型·过程管理
+02, 2017 - 06, 2017	            Praktikant im Bereich Softwareentwicklung für Innovationsprojekte im Innovation Center München     
 
-减肥成功者[92KG->64KG(170CM)]
+* KUKA YouBot Showcase von T- Systems auf der CeBIT 2017 
+* Projekt Gazebo Simulation und SLAM Mapping/ Navigation von KUKA YouBot
+* Projekt autonome Navigation und Hindernisvermeidung von KUKA YouBot (ab Mai 2017)
+                                                                              
+### Besondere Kenntnisse
 
-运动爱好者，尤好跑步
+Robotik-Kenntnisse:
+* ROS, ROS- Navigation, Gazebo Simulation, SLAM, Rviz, MoveIt
 
-闲静少言，不慕荣利；好读书，不求甚解；每有会意，便欣然忘食
+BigData-Kenntnisse:
+* Apache Hadoop 2.0, Apache Mahout, Apache Maven
+* Pig, Hive, HBase, Zookeeper, Sqoop (Grundkenntnisse)
+Cloud-Kenntnisse:
+* Ubuntu Openstack (Grundkenntnisse)
+Programmier-Kenntnisse:
+* Java, C++, Python
+Software-Kenntnisse:
+* Linux, Windows, virtuelle Maschine, LaTex
+Sprachen:
+* Deutsch, Englisch, Chinesisch (Muttersprache)
+
+### Hobby
+* Lesen, Basketball
