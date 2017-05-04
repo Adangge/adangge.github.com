@@ -5,7 +5,7 @@ header: 关于我
 ---
 <h3>{{ page.header }}</h3>
 
-### Akademische Ausbildung:
+### Akademische Ausbildung
 
 10, 2014 - Heute:
 * Hochschule für Technik und Wirtschaft Berlin
@@ -22,7 +22,7 @@ header: 关于我
 * Abschluss:   	Bachelor of Science
 
 
-### Praktiksche Erfahrungen:
+### Praktiksche Erfahrungen
 
 02, 2017 - 06, 2017 Praktikant im Bereich Softwareentwicklung für Innovationsprojekte im Innovation Center München:  
 * KUKA YouBot Showcase von T- Systems auf der CeBIT 2017 
