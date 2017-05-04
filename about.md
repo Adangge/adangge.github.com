@@ -8,14 +8,19 @@ header: 关于我
 ### Akademische Ausbildung:
 
 10, 2014 - Heute		Hochschule für Technik und Wirtschaft Berlin
-		                Studiengang:	Fahrzeugtechnik (Master)
-		                Fachrichtung:	Ingenieurwissenschaften- Technik und Leben
+		               
+			       Studiengang:	Fahrzeugtechnik (Master)
+		               
+			       Fachrichtung:	Ingenieurwissenschaften- Technik und Leben
 
 09, 2010 - 07, 2011		Changsha University of Science and Technology (China)
+				
 				Studiengang:	Vehicle Operation Engineering (2 Semester des Masters)
 
 09, 2006 - 07, 2010		Jianghan Universität (China)
+				
 				Studiengang:	Fahrzeugservice
+				
 				Abschluss:   	Bachelor of Science
 
 
@@ -35,12 +40,16 @@ Robotik-Kenntnisse:
 BigData-Kenntnisse:
 * Apache Hadoop 2.0, Apache Mahout, Apache Maven
 * Pig, Hive, HBase, Zookeeper, Sqoop (Grundkenntnisse)
+
 Cloud-Kenntnisse:
 * Ubuntu Openstack (Grundkenntnisse)
+
 Programmier-Kenntnisse:
 * Java, C++, Python
+
 Software-Kenntnisse:
 * Linux, Windows, virtuelle Maschine, LaTex
+
 Sprachen:
 * Deutsch, Englisch, Chinesisch (Muttersprache)
 
