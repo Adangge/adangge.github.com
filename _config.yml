@@ -1,5 +1,5 @@
 # Basic
-title: KUKA YouBot Developments
+title: KUKA YouBot Development
 subtitle: Long Ding
 description: keep hungry and keep fool!
 # 头像里面的标题
@@ -28,7 +28,7 @@ baidu:
 # 使用博客模板请去掉或者更换 id
 ga:
 
-    host:  
+    host:  Auto
 
 
 # ----------------- 上面的信息修改成你自己的 ---------------------------
