@@ -3,20 +3,22 @@
     <script type="text/javascript" >
     
     var disqus_config = function () {
-    this.page.url = "{{ page.url | prepend: site.baseurl | prepend: site.url }}";
+    <!-- this.page.url = "{{ page.url | prepend: site.baseurl | prepend: site.url }}"; -->
         <!-- this.page.url = "https://adangge.github.io{{ page.url }}"; -->
+             this.page.url = https://adangge.github.io;
         
-        this.page.identifier = "{{ page.url }}";
-        <!-- this.page.identifier = "{{ page.id }}"; -->
+         <!-- this.page.identifier = "{{ page.url }}";  -->
+       this.page.identifier = "{{ page.id }}";
+             
           
     };
 
-var disqus_shortname = '{{ site.comment.disqus }}';
-     <!--var disqus_shortname = adangge.github.io; -->
+     <!-- var disqus_shortname = '{{ site.comment.disqus }}'; -->
+     <!-- var disqus_shortname = adangge.github.io; -->
     
     (function() { // DON'T EDIT BELOW THIS LINE
         var d = document, s = d.createElement('script');
-        s.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+        s.src = 'https://adangge.disqus.com/embed.js';
         s.setAttribute('data-timestamp', +new Date());
             (d.head || d.body).appendChild(s);
         })();
