@@ -1,6 +1,6 @@
 ---
 layout: post
-title: KUKA YouBot 实体机开发及 Apache Web Server 应用
+title: KUKA YouBot实体机开发及Apache Web Server应用
 date: 2017-05-04
 tags: [KUKA YouBot, Apache Web Server, 教程]
 ---
