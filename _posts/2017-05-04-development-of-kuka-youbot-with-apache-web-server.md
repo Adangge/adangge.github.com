@@ -77,3 +77,4 @@ void moveGripperopen(){
 写到这里这篇博文基本上就结束了！最后附上通过WebServer控制YouBot完成SmartMove的视频！
 <object width="425" height="344" data='http://v.youku.com/v_show/id_XMjc1NDYxNTM2MA==.html'>
 </object>
+由于多说无法继续使用，大家最好注册Disqus，这样就可以参与评论了！
