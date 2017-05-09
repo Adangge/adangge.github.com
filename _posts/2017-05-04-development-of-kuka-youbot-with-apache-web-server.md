@@ -58,9 +58,20 @@ void moveGripperopen(){
 }
 ```
 
-理解上述代码以后，大家可以开始自己编写手臂运动。我的完整代码详见 [Apache-server_YouBot_Object_Displacer，main.cpp](https://github.com/Adangge/Apache-Server_YouBot_Object_Displacer).
+理解上述代码以后，大家可以开始自己编写手臂运动。我的完整代码详见 [Apache-server_YouBot_Object_Displacer，main.cpp](https://github.com/Adangge/Apache-Server_YouBot_Object_Displacer/blob/master/main.cpp).
 
 总得来说，对手臂运动包括底盘运动的开发是很基础的，在没有其他传感器的参与下，除了加入前端控制，YouBot的开发相当有限！接下来介绍运用Apache Web Server开发一个网页服务器来控制YouBot完成SmartMove。
 
-### Apache Web Server
 
+### Apache Web Server
+首先还是介绍下必要的基础知识:
+1. 在Ubuntu下安装并配置Apache Web Server，这里介绍两篇博文，讲的还是非常清楚的，大家做下来应该可以清楚Apache Web Server是什么。[Ubuntu下安装配置Apache http server](blog.csdn.net/ichuzhen/article/details/8217577), [手把手教你在ubuntu上安装apache和mysql和php](blog.csdn.net/guaikai/article/details/6905781).
+2. 编写一个Shell Script，并通过Apache在Html Page上加载，介绍一篇英文博文，[Demo:How to invoke a Shell Script on a HTML Page being served by Apache on Linux Machine](https://kuldeeparya.wordpress.com/2014/07/20/demo-how-to-invoke-a-shell-script-on-a-html-page-being-served-by-apache-on-linux-machine/).
+
+准备工作做完之后，其实整个事情就完成一大半了。不过具体的配置和出现的问题是因人而异的，大家耐心做肯定可以完成！现在介绍两个关键的程:
+1. **test_script.sh** 这个文件包括IP配置和所有你想要实现的ROS程序。它存在的目录位置通常有两种，**usr/lib/cgi-bin/test_script.sh**和**var/www/cgi-bin**，这取决于个人配置。我的代码详见[Apache-server_YouBot_Object_Displacer, test_script.sh](https://github.com/Adangge/Apache-Server_YouBot_Object_Displacer/blob/master/test_script.sh)。这里关键是要注意修改IP和URI，同时运行ROS程序前要source相关路径，否则会报错！
+2. **youbot.html** 这个文件调用了test_script.sh文件，并定义了一个button和一些导言，这些在网页上都会显现。它的位置通常都是在**/var/www/html/youbot.html**。我的代码详见[Apache-server_YouBot_Object_Displacer, youBot.html](https://github.com/Adangge/Apache-Server_YouBot_Object_Displacer/blob/master/youBot.html)。
+
+代码很简单，相信大家都可以理解！只不过是刚开始时不熟悉Apache Web Server,大家从逻辑上可能会不大理解它在Linux下如何和YouBot产生联系。这也是为什么我不建议大家直接 git clone 所有文件的原因，从头开始一步步理解所有程序才会有很大收获。从效率上来讲，这样做似乎比较费时，其实是事半功倍的。只不过很多人想要打好基础，但苦于不知从何入手或者找不到有效的资料而走了不少弯路。
+
+写到这里这篇博文基本上就结束了！最后附上通过WebServer控制YouBot完成SmartMove的视频！
