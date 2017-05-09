@@ -57,3 +57,10 @@ void moveGripperopen(){
      ros::Duration(2).sleep();
 }
 ```
+
+理解上述代码以后，大家可以开始自己编写手臂运动。我的完整代码详见 [Apache-server_YouBot_Object_Displacer，main.cpp](https://github.com/Adangge/Apache-Server_YouBot_Object_Displacer).
+
+总得来说，对手臂运动包括底盘运动的开发是很基础的，在没有其他传感器的参与下，除了加入前端控制，YouBot的开发相当有限！接下来介绍运用Apache Web Server开发一个网页服务器来控制YouBot完成SmartMove。
+
+### Apache Web Server
+
