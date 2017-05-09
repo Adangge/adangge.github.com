@@ -9,9 +9,8 @@ avatarDesc: Love what is lovely!
 url: "https://adangge.github.io"
 
 # Comment
-value:
+comment:
    disqus: adangge
-   comments: true
    
 # Social
 social:
