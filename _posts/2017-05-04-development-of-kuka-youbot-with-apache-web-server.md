@@ -1,4 +1,4 @@
----sdf
+---
 layout: post
 title: KUKA YouBot 实体机开发及 Apache Web Server 应用
 date: 2017-05-04
@@ -21,4 +21,11 @@ tags: [KUKA YouBot, Apache Web Server, 教程]
 
 以上是很基础的知识，但是非常重要，特别是1和2，掌握扎实，能够事半功倍!
 
-完成了上述4点以后，必要的API和开发基础大家都会有了。我的YouBot是12.04Ubuntu和ROS hydro，现在介绍"SmartMove"程序。这个程序是在HelloWorld Demo基础上改的，主要是手臂的运动。这里一共有20个手臂的动作，每一个动作对应5个jointvalues,这个值就是手臂joint的弧度值。同时，速度的控制其实就是控制每个动作之间的间隔时间 ''ad
+完成了上述4点以后，必要的API和开发基础大家都会有了。我的YouBot是12.04Ubuntu和ROS hydro，现在介绍"SmartMove"程序。这个程序是在HelloWorld Demo基础上改的，主要是手臂的运动。这里一共有20个手臂的动作，除了gripper的张合每一个动作对应5个jointvalues,这个值就是手臂joint的弧度值。同时，速度的控制其实就是控制每个动作之间的间隔时间 'ros::Duration(3).sleep()'。图1，显示的一个手臂动作:
+
+![Image 1](C:\Users\Faisal\Desktop\1.png)
+
+其中，JV[0]是手臂连接base的最大的joint，JV[4]是手臂顶端连接gripper的joint。在测试角度的时候一定要注意每个joint的有效范围，如果出错在后台都会有显示，所以要注意后台信息。图2，显示的是gripper的打开，其实就是设置gripper的距离值，当然这个值也有有效范围，后台一样会显示给值是否合法。
+
+
+![Image 2](C:\Users\Faisal\Desktop\2.png)
