@@ -78,4 +78,4 @@ void moveGripperopen(){
 <object type='application/x-shockwave-flash' style='width:500px; height:300px;' data='https://youtu.be/P2M-hOoy3Ig'>
 	<param name='movie' value='https://youtu.be/P2M-hOoy3Ig' />
 </object>
-<div style='font-size: 0.8em'><a href='http://www.scriptgenerator.net/'>Get valid XHTML YouTube embed code for your website</a></div>
+<div style='font-size: 0.8em'><a href='http://www.scriptgenerator.net/'>WebServer控制YouBot完成SmartMove</a></div>
