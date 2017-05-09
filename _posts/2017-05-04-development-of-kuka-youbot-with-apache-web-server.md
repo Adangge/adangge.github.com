@@ -25,7 +25,8 @@ tags: [KUKA YouBot, Apache Web Server, 教程]
 
 '''
 
-void moveArmstart() {
+void moveArmstart(){
+    
      brics_actuator::JointPositions msg;
      std::vector<double> jointvalues(5);
      
@@ -46,7 +47,8 @@ void moveArmstart() {
 
 '''
 
-void moveGripperopen() {
+void moveGripperopen(){
+
      brics_actuator::JointPositions msg;
      
      msg = createGripperPositonCommand(0.0115);
