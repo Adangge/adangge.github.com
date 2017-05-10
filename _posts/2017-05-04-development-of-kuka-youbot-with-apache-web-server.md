@@ -74,7 +74,6 @@ void moveGripperopen(){
 
 代码很简单，相信大家都可以理解！只不过是刚开始时不熟悉Apache Web Server,大家从逻辑上可能会不大理解它在Linux下如何和YouBot产生联系。这也是为什么我不建议大家直接 git clone 所有文件的原因，从头开始一步步理解所有程序才会有很大收获。从效率上来讲，这样做似乎比较费时，其实是事半功倍的。只不过很多人想要打好基础，但苦于不知从何入手或者找不到有效的资料而走了不少弯路。
 
-写到这里这篇博文基本上就结束了！最后附上通过WebServer控制YouBot完成SmartMove的视频！
-<object width="425" height="344" data='http://v.youku.com/v_show/id_XMjc1NDYxNTM2MA==.html'>
-</object>
+写到这里这篇博文基本上就结束了！最后附上通过WebServer控制YouBot完成SmartMove的[视频](http://v.youku.com/v_show/id_XMjc1NDYxNTM2MA==.html?spm=a2hzp.8244740.userfeed.5!2~5~5~5!3~5~A)！
+
 由于多说无法继续使用，大家最好注册Disqus，这样就可以参与评论了！
